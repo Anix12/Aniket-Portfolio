@@ -9,7 +9,7 @@ const projects = [
     desc:"A responsive stock trading platform built using React, replicating Zerodha's core features and user interface.",
     year: "Nov’2024 – Jan’2025",
     align: "right",
-    image: "/Aniket-Portfolio//images/website-img-1.jpg",
+    image: "/Aniket-Portfolio/images/website-img-1.jpg",
     link: "#",
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     desc:"A dynamic property listing and booking platform using EJS templating, mimicking Airbnb's functionality.",
     year: "Aug’2024-Oct’2024",
     align: "left",
-    image: "/Aniket-Portfolio//images/website-img-2.webp",
+    image: "/Aniket-Portfolio/images/website-img-2.webp",
     link: "#",
   },
   {
