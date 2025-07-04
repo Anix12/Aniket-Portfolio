@@ -47,6 +47,11 @@ export const Contact = () => {
       error: false,
       message: "",
     });
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    });
 
     try {
       await emailjs.send(
@@ -108,6 +113,7 @@ export const Contact = () => {
             required
             whileFocus={{ scale: 1.02 }}
             onChange={handleInputChange}
+            value={formData.name}
           />
           <motion.input
             type="email"
@@ -116,6 +122,7 @@ export const Contact = () => {
             required
             whileFocus={{ scale: 1.02 }}
             onChange={handleInputChange}
+            value={formData.email}
           />
           <motion.textarea
             name="message"
@@ -123,6 +130,7 @@ export const Contact = () => {
             required
             whileFocus={{ scale: 1.02 }}
             onChange={handleInputChange}
+            value={formData.message}
           />
 
           <motion.button

@@ -40,11 +40,11 @@ export const Hero = () => {
             variants={fadeInUp}
             whileHover={{ scale: 1.02 }}
           >
-            PedroTech
+            Aniket Adhav
           </motion.h1>
           <motion.h2 className="hero-subtitle" variants={fadeInUp}>
             {" "}
-            Creative Developer & Designer
+            Creative Fullstack Developer
           </motion.h2>
           <motion.p className="hero-description" variants={fadeInUp}>
             I craft beautiful digital experiences that combine stunning design
@@ -72,14 +72,17 @@ export const Hero = () => {
             </motion.a>
           </motion.div>
           <motion.div className="social-links" variants={staggerContainer}>
-            <motion.a href="https://github.com" target="_blank">
+            <motion.a href="https://github.com/Anix12/" target="_blank">
               <i className="fab fa-github"> </i>
             </motion.a>
-            <motion.a href="https://linkedin.com" target="_blank">
+            <motion.a href="https://linkedin.com/in/aniket-adhav" target="_blank">
               <i className="fab fa-linkedin"> </i>
             </motion.a>
-            <motion.a href="https://twitter.com" target="_blank">
+            <motion.a href="https://x.com/Aniket_3_13" target="_blank">
               <i className="fab fa-twitter"> </i>
+            </motion.a>
+            <motion.a href="https://leetcode.com/u/Aniket1221/" target="_blank">
+              <i class="fa-solid fa-laptop-code"></i>
             </motion.a>
           </motion.div>
         </motion.div>
@@ -105,19 +108,21 @@ export const Hero = () => {
               style={vscDarkPlus}
             >
               {`const aboutMe: DeveloperProfile = {
-  codename: "PedroTech",
+  codename: "Aniket Adhav",
   origin: "🌍 Somewhere between a coffee shop and a terminal",
-  role: "Fullstack Web Sorcerer",
+  role: "Fullstack Web Developer",
   stack: {
-    languages: ["JavaScript", "TypeScript", "SQL"],
-    frameworks: ["React", "Next.js", "TailwindCSS", "Supabase"],
+    languages: ["JavaScript", "Java", "SQL", "MongoDB"],
+    frameworks: ["React", "Next.js", "TailwindCSS","Bootstrap","Supabase"],
   },
   traits: [
-    "pixel-perfectionist",
-    "API whisperer",
-    "dark mode advocate",
-    "terminal aesthetic enthusiast",
-  ],
+  "full-stack sculptor",
+  "UI/UX pixel alchemist",
+  "freelance-ready dev",
+  "React router navigator",
+  "Git commit poet",
+  "deploy-on-Friday rebel",
+],
   missionStatement:
     "Turning ideas into interfaces and bugs into feature",
   availability: "Available for hire",
